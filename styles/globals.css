@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+@layer components {
+    .boxes{
+        @apply text-center w-32 h-8 border-2 rounded-lg text-white bg-slate-400
+    }
+}
